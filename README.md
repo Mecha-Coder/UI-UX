@@ -12,6 +12,7 @@ npm run tailwind
 ---
 3) To start, click on the intro.html page 
 
+<img width="273" height="311" alt="image" src="https://github.com/user-attachments/assets/3b60d535-bd9f-4e29-b335-cd9aaf828440" />
 <img width="432" height="233" alt="image" src="https://github.com/user-attachments/assets/eac4d641-b2f1-47c9-a75b-dcb9ad3bcba2" />
 
 Note: Those buttons with pointed arrows are clickable
