@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+
+
+<body class="bg-gray-950 text-white h-screen inter-font flex flex-col justify-center px-32 py-12">
+
+	<a href="1_dashboard.html"
+		class="absolute top-6 right-6 w-6 h-6 bg-yellow-300 rounded flex items-center justify-center">
+		<i class="fas fa-times text-black text-xl"></i>
+	</a>
+
+	<!-- Player Name: Top -->
+	<div class="flex justify-center px-16">
+		<span class=" text-2xl font-bold">Tournament Bracket</span>
+	</div>
+	
+	<div class="h-full flex">
+		<!-- Control: Left -->
+		<div class="flex flex-col py-6 justify-between invisible">
+			<div class="flex flex-col space-y-2">
+				<div class="bg-white/20 w-12 h-12 flex items-center justify-center font-bold text-lg rounded-lg">W</div>
+				<div class="bg-white/20 w-12 h-12 flex items-center justify-center font-bold text-lg rounded-lg">S</div>
+			</div>
+			<div class="flex flex-col space-y-2">
+				<div class="bg-white/20 w-12 h-12 flex items-center justify-center font-bold text-lg rounded-lg">G</div>
+				<div class="bg-white/20 w-12 h-12 flex items-center justify-center font-bold text-lg rounded-lg">B</div>
+			</div>
+		</div>
+
+		<!-- Court -->
+		<div class="flex flex-col justify-between w-full relative border-4 mx-4 my-2 p-8">
+
+			<!-- Tournament Bracket -->
+			<div class="grid grid-cols-4 gap-8 place-items-center">
+				
+				<!-- Semifinal -->
+				<div class="space-y-4 w-5/6">
+
+					<div class="text-center text-lg font-bold text-yellow-400">Semi-Final</div>
+
+					<div class="bg-white/20 rounded-xl space-y-2 p-2 font-semibold text-center">
+						<div class="py-2">Player 1</div>
+						<div class="border-b border-white"></div>
+						<div class="py-2">Player 2</div>
+					</div>
+
+					<div class="bg-white/20 rounded-xl space-y-2 p-2 font-semibold text-center">
+						<div class="py-2">Player 3</div>
+						<div class="border-b border-white"></div>
+						<div class="py-2">Player 4</div>
+					</div>
+
+				</div>
+
+				<!-- Final -->
+				 <div class="space-y-4 w-5/6">
+					<div class="text-center text-lg font-bold text-yellow-400">Final</div>
+
+					<div class="bg-white/20  rounded-xl space-y-2 p-2 font-semibold text-center">
+						<div class=" py-2">Player 2</div>
+						<div class="border-b border-white"></div>
+						<div class="py-2">?</div>
+					</div>
+				</div>
+
+				<!-- Champion -->
+				<div class="space-y-4 w-5/6">
+					<div class="text-center text-lg font-bold text-yellow-400">
+						<i class="fas fa-trophy text-3xl text-yellow-400"></i>
+						Champion
+					</div>
+					<div class="bg-white/20 rounded-xl space-y-2 p-2 font-semibold text-center">
+						?
+					</div>
+				</div>
+
+				<!-- 3rd Place -->
+				 <div class="space-y-4 w-5/6">
+					<div class="text-center text-lg font-bold text-yellow-400">3rd Place</div>
+					<div class="bg-white/20  rounded-xl space-y-2 p-2 text-lg font-semibold text-center">
+						<div class=" py-2">?</div>
+						<div class="border-b border-white"></div>
+						<div class="py-2">?</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Current Battle -->
+			 <div class="flex items-center justify-center">
+				<span class="text-5xl font-bold">Player 1</span>
+				<img class="px-12 h-36 object-cover" src="../asset/battle.png" alt="">
+				<span class="text-5xl font-bold">Player 2</span>
+			 </div>
+
+			<!-- Button -->
+			<div class="text-center">
+			<button class="text-center bg-yellow-400 text-black px-16 py-2 rounded-full text-2xl font-bold">
+				Start
+			</button>
+	</div>
+		</div>
+		
+		<!-- Control: Right -->
+		<div class="flex flex-col py-6 justify-between invisible">
+			<div class="flex flex-col space-y-2">
+				<div class="bg-white/20 w-12 h-12 flex items-center justify-center font-bold text-lg rounded-lg">O</div>
+				<div class="bg-white/20 w-12 h-12 flex items-center justify-center font-bold text-lg rounded-lg">L</div>
+			</div>
+			<div class="flex flex-col space-y-2">
+				<div class="bg-white/20 w-12 h-12 flex items-center justify-center font-bold text-lg rounded-lg">
+					<i class="fa fa-arrow-up"></i>
+				</div>
+				<div class="bg-white/20 w-12 h-12 flex items-center justify-center font-bold text-lg rounded-lg">
+					<i class="fa fa-arrow-down"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Player Name: Bottom -->
+		<div class="flex justify-between px-16 invisible">
+		<span class="text-green-500 text-2xl font-bold">Jason S.K</span>
+		<span class="text-pink-500 text-2xl font-bold">Rizal</span>
+	</div>
+</body>
+</html>

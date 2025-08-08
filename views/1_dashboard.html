@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+
+
+<body class="bg-gray-950 text-white min-h-screen inter-font">
+
+	<!-- Header ------------------------------------------------------------------------>
+	<header class="bg-gray-950 px-4 border-b border-gray-700 flex items-center justify-between">
+		
+		<!-- User profile -->
+		<div class="flex space-x-4 items-center">
+			<img class="w-14 h-14 rounded-full" src="../asset/user-avatar.jpg" alt="profile">
+			<span class="text-xl font-semibold">John Lennon</span>
+		</div>
+
+		<!-- Navigation -->
+		<div class="flex">
+
+			<!-- Game Section -->
+			<div class="border-l border-gray-700 py-1 px-3">
+				<div class="text-sm tracking-widest mb-1">Game</div>
+				<div class="flex items-center space-x-2">
+
+					<!-- Pong -->
+					<button class="relative group px-3 py-1 bg-yellow-400 rounded-lg">
+						<i class="fas fa-table-tennis text-xl text-gray-950"></i>
+						<span class="absolute opacity-0 -bottom-9 left-1/2 -translate-x-1/2 text-sm py-1 px-3 bg-white/20 group-hover:opacity-100 transition-opacity rounded-lg whitespace-nowrap z-10">Pong</span>
+					</button>
+
+					<!-- XOX -->
+					<button class="relative group px-3 py-1 rounded-lg">
+						<i class="fas fa-th text-xl"></i>
+						<span class="absolute opacity-0 -bottom-9 left-1/2 -translate-x-1/2 text-sm py-1 px-3 bg-white/20 group-hover:opacity-100 transition-opacity rounded-lg whitespace-nowrap z-10">Tic-Tac-Toe</span>
+					</button>
+
+				</div>
+			</div>
+
+			<!-- Menu Selection -->
+			<div class="border-l border-gray-700 py-1 px-3">
+				<div class="text-sm tracking-widest mb-1">Menu</div>
+				<div class="flex items-center space-x-2">
+
+					<!-- Friends -->
+					<a href="4_friends.html"
+						class="relative group px-3 py-1  rounded-lg">
+						<i class="fas fa-users text-xl"></i>
+						<span class="absolute opacity-0 -bottom-9 left-1/2 -translate-x-1/2 text-sm py-1 px-3 bg-white/20 group-hover:opacity-100 transition-opacity rounded-lg whitespace-nowrap z-10">Friends</span>
+					</a>
+
+					<!-- Profile -->
+					<button class="relative px-3 group py-1 rounded-lg">
+						<i class="fas fa-cog text-xl"></i>
+						<span class="absolute opacity-0 -bottom-9 left-1/2 -translate-x-1/2 text-sm py-1 px-3 bg-white/20 group-hover:opacity-100 transition-opacity rounded-lg whitespace-nowrap z-10">Profile</span>
+					</button>
+
+					<!-- Exit -->
+					<a href="../intro.html"
+						class="relative group px-3 py-1 rounded-lg">
+						<i class="fas fa-sign-out-alt text-xl"></i>
+						<span class="absolute opacity-0 -bottom-9 left-1/2 -translate-x-1/2 text-sm py-1 px-3 bg-white/20 group-hover:opacity-100 transition-opacity rounded-lg whitespace-nowrap z-10">Exit</span>
+					</a>
+
+
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Game Selection -->
+	<main class="py-20 px-12 grid gap-8 grid-cols-4 justify-center">
+		
+		<!-- 1 vs 1 -->
+		<div class="bg-white/20 rounded-lg p-8 text-center space-y-4">
+			<div class="h-60">
+				<h2 class="text-3xl font-bold mb-6">1 vs 1</h2>
+				<p>Classic 1-on-1 clash outplay your rival in a fast-paced duel</p>
+			</div>
+			<button class="w-full border-2 border-yellow-400 py-3 rounded-full font-medium hover:bg-yellow-400 hover:text-black transition-colors duration-200">
+				Online
+			</button>
+			<button class="w-full border-2 border-yellow-400 py-3 rounded-full font-medium hover:bg-yellow-400 hover:text-black transition-colors duration-200">
+				Offline
+			</button>
+		</div>
+
+		<!-- 2 vs 2 -->
+		<div class="bg-white/20 rounded-lg p-8 text-center space-y-4">
+			<div class="h-60">
+				<h2 class="text-3xl font-bold mb-6">2 vs 2</h2>
+				<p>Team up with a friend and crush the competition in thrilling 2v2 battles</p>
+			</div>
+			<button class="w-full border-2 border-yellow-400 py-3 rounded-full font-medium hover:bg-yellow-400 hover:text-black transition-colors duration-200">
+				Online
+			</button>
+			<div>
+			<a class="" href="5_lobby.html">
+				<button class="w-full border-2 border-yellow-400 py-3 rounded-full font-medium hover:bg-yellow-400 hover:text-black transition-colors duration-200">
+					Offline
+				</button>
+			</a>
+			</div>
+		</div>
+
+		<!-- Tournament -->
+		<div class="bg-white/20 rounded-lg p-8 text-center space-y-4">
+			<div class="h-60">
+				<h2 class="text-3xl font-bold mb-6">Tournament</h2>
+				<p>Climb the bracket and compete for glory. Each player competes in 2 rounds to determine the winner</p>
+			</div>
+			<button class="w-full border-2 border-yellow-400 py-3 rounded-full font-medium hover:bg-yellow-400 hover:text-black transition-colors duration-200">
+				Online
+			</button>
+			<div>
+			<a href="7_tournament.html">
+				<button class="w-full border-2 border-yellow-400 py-3 rounded-full font-medium hover:bg-yellow-400 hover:text-black transition-colors duration-200">
+					Offline
+				</button>
+			</a>
+			</div>
+		</div>
+		
+		<!-- Practice -->
+		<div class="bg-white/20 rounded-lg p-8 text-center space-y-4">
+			<div class="h-60">
+				<h2 class="text-3xl font-bold mb-6">Practice</h2>
+				<p>Train up and sharpen your skills by battling the AI</p>
+			</div>
+			<button class="w-full border-2 border-yellow-400 py-3 rounded-full font-medium hover:bg-yellow-400 hover:text-black transition-colors duration-200">
+				vs AI
+			</button>
+		</div>
+	</main>
+
+	<!-- Footer: Analytic -->
+	<footer class="group fixed bottom-12 right-12 duration-200 transition-opacity">
+		<a href="3_analytics.html"
+			class="flex items-center font-semibold text-xl mb-1">
+			<span class="pr-4">Analytics</span>
+			<i class="fas fa-chevron-right text-yellow-400 text-2xl"></i>
+			<i class="fas fa-chevron-right text-yellow-400 text-2xl"></i>
+		</a>
+		<div class="h-1 opacity-0 group-hover:opacity-100 bg-yellow-400 w-full"></div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+
+<body class="bg-gray-950 text-white h-screen inter-font px-32 pt-8 space-y-6">
+
+	<a href="./1_dashboard.html"
+		class="absolute top-6 right-6 w-6 h-6 bg-yellow-400 rounded flex items-center justify-center">
+		<i class="fas fa-times text-black text-xl"></i>
+	</a>
+
+	<header class="flex items-center space-x-4">
+		<h2 class="text-2xl font-bold">Match Info:</h2>
+		<span class="bg-white/20 px-6 py-2 rounded-full">Tournament</span>
+		<span class="bg-white/20 px-6 py-2 rounded-full">Offline</span>
+	</header>
+
+	<nav class="grid grid-cols-[3fr_2fr] gap-10">
+		<h2 class="text-2xl font-bold">Map Selection:</h2>
+		<h2 class="text-2xl font-bold">Players (4)</h2>
+	</nav>
+
+	<main class="grid grid-cols-[3fr_2fr] gap-10 place-items-center">
+		<!-- Map Selection -->
+		<section class="grid grid-cols-2 gap-6 px-12">
+			<div class="border-4 border-yellow-400 text-2xl flex items-center justify-center rounded-xl">None</div>
+			<img class="object-cover rounded-xl grayscale hover:grayscale-0 transition-all duration-300" src="../asset/map-1.avif" alt="map">
+			<img class="object-cover rounded-xl grayscale hover:grayscale-0 transition-all duration-300" src="../asset/map-2.avif" alt="map">
+			<img class="object-coverrounded-xl grayscale hover:grayscale-0 transition-all duration-300" src="../asset//map-3.png" alt="map">
+		</section>
+
+		<!-- Player List -->
+		<section class="px-12 space-y-6">
+			<input class="w-full text-gray-500 text-lg focus:outline-none rounded-full px-10 py-4"
+				type="text"
+				placeholder="Player Name"
+				maxlength="24">
+			<input class="w-full text-gray-500 text-lg focus:outline-none rounded-full px-10 py-4"
+				type="text"
+				placeholder="Player Name"
+				maxlength="24">
+			<input class="w-full text-gray-500 text-lg focus:outline-none rounded-full px-10 py-4"
+				type="text"
+				placeholder="Player Name"
+				maxlength="24">
+			<input class="w-full text-gray-500 text-lg focus:outline-none rounded-full px-10 py-4"
+				type="text"
+				placeholder="Player Name"
+				maxlength="24">
+		</section>
+			
+	</main>
+
+	<!-- Error Message -->
+	<p class="pt-8 text-center text-red-500 text-xl font-semibold">
+		Error: Input validation message
+	</p>
+
+	<div class="text-center">
+		<a href="6_arena.html"
+			class="text-center bg-yellow-400 text-black px-16 py-2 rounded-full text-2xl font-bold">
+			Start
+		</a>
+	</div>
+	
+</body>
+</html>
