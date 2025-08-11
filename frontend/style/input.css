@@ -1,0 +1,23 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pixel-font {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.inter-font{
+	font-family: 'Inter', sans-serif;
+}
+
+.button-primary {
+	@apply px-12 py-2 space-x-3 rounded-full font-semibold text-lg flex items-center justify-center bg-yellow-400 text-black hover:bg-yellow-300 transition duration-200;
+}
+
+.button-secondary {
+	@apply px-12 py-2 space-x-3 rounded-full font-semibold text-lg flex items-center justify-center border-2 border-yellow-400 hover:bg-yellow-400/20 transition duration-200;
+}
